@@ -8,13 +8,17 @@ nav p {
     text-align: center;
     position: absolute;
     margin-right: 25px;
-    left: 100px;
+    left: -100px;
 }
 
 nav input[type=text]{
     margin-top: 35px;
     text-align: right;
     top: 100px;
+}
+
+nav{
+    background-color: blue;
 }
 
 nav a {
