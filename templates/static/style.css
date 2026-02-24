@@ -9,6 +9,7 @@ nav p {
     position: absolute;
     margin-right: 25px;
     left: -100px;
+    color: blue;
 }
 
 nav input[type=text]{
