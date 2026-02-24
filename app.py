@@ -1,7 +1,7 @@
 from flask import Flask, render_template
-
+import sqlite3
 app = Flask(__name__)
-
+sqlite3.connect('identifier.sqlite')
 @app.route("/")
 def home():
     return render_template("home.html")
